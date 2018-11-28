@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Agregar"
+            android:icon="@drawable/mas"
+            android:title="Agregar peluche" />
+        <item
+            android:id="@+id/Buscar"
+            android:icon="@drawable/buscar"
+            android:title="Buscar peluche" />
+        <item
+            android:id="@+id/Eliminar"
+            android:icon="@drawable/cerrar"
+            android:title="Eliminar peluche" />
+        <item
+            android:id="@+id/Inventario"
+            android:icon="@drawable/agenda"
+            android:title="Ver inventario" />
+    </group>
+
+</menu>
